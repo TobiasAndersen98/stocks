@@ -1,0 +1,67 @@
+# Byte-compiled / optimized files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Python packaging and build artifacts
+build/
+dist/
+*.egg-info/
+*.egg
+.eggs/
+pip-wheel-metadata/
+wheelhouse/
+share/python-wheels/
+
+# Installer and test artifacts
+pip-log.txt
+pip-delete-this-directory.txt
+.pytest_cache/
+.tox/
+.nox/
+coverage.xml
+htmlcov/
+.coverage
+.coverage.*
+nosetests.xml
+test-results/
+
+# Type checking and linting caches
+.mypy_cache/
+.dmypy.json
+.pyre/
+.ruff_cache/
+.hypothesis/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment and local secrets
+.env
+.env.*
+!.env.example
+
+# Editors and operating systems
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Local databases
+*.sqlite3
+*.db
+
+# Optional: generated documentation
+docs/_build/
